@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4716947940020076213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4716947940020076208}
+  - component: {fileID: 8733133911689835664}
+  - component: {fileID: 4716947940020076215}
+  - component: {fileID: -3130016956700890668}
+  - component: {fileID: -8145083440562111436}
+  - component: {fileID: 6087022058550573271}
+  - component: {fileID: 1662449481899602862}
+  m_Layer: 0
+  m_Name: Ship
+  m_TagString: Ship
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4716947940020076208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4716947940020076213}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8733133911689835664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4716947940020076213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baf0d2dfe4b98474ba85281485662552, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletTemplate: {fileID: 8155877261244655310, guid: dcdc4f91b5827da4e9f72586894615b2,
+    type: 3}
+--- !u!212 &4716947940020076215
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4716947940020076213}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: ada7fdfbeb24a9344beb8e613e4dd0e1, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.71, y: 1.76}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &-3130016956700890668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4716947940020076213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da17a411af0145c4da02a20ff58b7978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!60 &-8145083440562111436
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4716947940020076213}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.71, y: 1.76}
+    newSize: {x: 1.71, y: 1.76}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.085, y: -0.34}
+      - {x: 0.42499998, y: -0.59999996}
+      - {x: 0.78499997, y: -0.88}
+      - {x: 0.85499996, y: -0.88}
+      - {x: 0.85499996, y: -0.79999995}
+      - {x: 0.615, y: -0.29999998}
+      - {x: 0.16499999, y: 0.63}
+      - {x: 0.035, y: 0.88}
+      - {x: -0.044999998, y: 0.88}
+      - {x: -0.185, y: 0.59}
+      - {x: -0.59499997, y: -0.28}
+      - {x: -0.85499996, y: -0.83}
+      - {x: -0.85499996, y: -0.88}
+      - {x: -0.73499995, y: -0.88}
+      - {x: -0.065, y: -0.32}
+      - {x: 0.015, y: -0.26999998}
+--- !u!114 &6087022058550573271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4716947940020076213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d59eec47fb61cc4392a06fab1fa8ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spritesArray:
+  - {fileID: 21300000, guid: 0911680b6c8b1ba4a9bbcd25db66a39e, type: 3}
+  - {fileID: 21300000, guid: 949124b73ca5ae7419caa898ddd5f610, type: 3}
+  - {fileID: 21300000, guid: 3986ca5a511eba2409098817aa169831, type: 3}
+  mainFrame: {fileID: 21300000, guid: ada7fdfbeb24a9344beb8e613e4dd0e1, type: 3}
+  animationOn: 0
+  randomSprites: 0
+  currentFrame: 0
+  frameRate: 0.15
+--- !u!114 &1662449481899602862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4716947940020076213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff3d125fab83a84bb60685b361d0383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fragments:
+  - {fileID: 4119358787463786803, guid: 8889142e736d4e945b7b50468dd30f0d, type: 3}
+  - {fileID: 6134467312734048327, guid: 925a4cb58fa57a245810ff224071fb53, type: 3}
+  - {fileID: 5319188158768009101, guid: 0442bcfcb936aa546a1b356b028abd90, type: 3}
+  - {fileID: 8344026728695517824, guid: ed74839c62fe43c42b6bec900d95a8a9, type: 3}
+  decayTime: 0.5

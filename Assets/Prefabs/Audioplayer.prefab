@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6339655011726672218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6339655011726672223}
+  - component: {fileID: 6339655011726672220}
+  m_Layer: 0
+  m_Name: Audioplayer
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6339655011726672223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6339655011726672218}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6339655011726672220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6339655011726672218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d989a4b0f107d5e48b72a61ef1b216f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Shoot
+    type: Sound
+    clip: {fileID: 8300000, guid: 753b49d1dc58fe84897c3fe436d9164d, type: 3}
+    volume: 0.44
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    playing: 0
+  - name: Explosion
+    type: Sound
+    clip: {fileID: 8300000, guid: 9d6900fe8201beb469a58eb51b2b64f6, type: 3}
+    volume: 0.585
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    playing: 0
+  - name: Ship Thrust
+    type: Sound
+    clip: {fileID: 8300000, guid: 20e5ba3078a07b442bd78da56643efca, type: 3}
+    volume: 0.789
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    playing: 0
+  - name: Track 1 Remix Intro
+    type: Music
+    clip: {fileID: 8300000, guid: 23f98cef868e360439ba9efeafcb79cd, type: 3}
+    volume: 0.607
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    playing: 0
+  - name: Track 1 Remix Loop
+    type: Music
+    clip: {fileID: 8300000, guid: 0dbf4f3ccd5f42d4eb0cb80f1c27d1bf, type: 3}
+    volume: 0.607
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    playing: 0
+  - name: UFO Flight
+    type: Sound
+    clip: {fileID: 8300000, guid: 20e5ba3078a07b442bd78da56643efca, type: 3}
+    volume: 0.806
+    pitch: 2.06
+    loop: 1
+    source: {fileID: 0}
+    playing: 0
+  audioStats:
+    masterVolume: 50
+    musicVolume: 100
+    soundeffectsVolume: 75
