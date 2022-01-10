@@ -34,4 +34,4 @@ Written in <img alt="VS Icon" width="26px" src="https://cdn.jsdelivr.net/gh/devi
 
 
 
-[lastBuild]: https://github.com/StellarByteStudios/Meteroids/blob/main/Fertige%20Builds/Meteroids%20(Release%201.2.1%20Bugfixing%20%5BSettingsSaving%5D).zip
+[lastBuild]: https://github.com/StellarByteStudios/Meteroids/raw/main/Fertige%20Builds/Meteroids%20(Release%201.2.1%20Bugfixing%20%5BSettingsSaving%5D).zip
