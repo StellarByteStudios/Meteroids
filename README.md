@@ -22,7 +22,7 @@ Einfach die neuste [Zip-Datei][lastBuild] herunterladen, entpacken und einfach d
 
 ---
 ### To-Do:
-[] Englische Readme anfertigen
+- Englische Readme anfertigen
 
 
 
