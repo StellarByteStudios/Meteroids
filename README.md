@@ -5,7 +5,7 @@ Hier werden alle Dateien zu meinem Spiel Meteroids hochgeladen.
 Darunter sind die Assets wie die Skrips, Sprites, etc. Aber auch ein fertig gezipptes Build, was nach entpacken direkt ausgeführt werden kann.
 
 ## Spielen des Spiels
-Das Spiel ist ein Nachbau des spiels Astroids, einer alten Arcade aus den späten 70ern. Man steuert ein Raumschiff <img alt="Astroid Icon" width="26px" src="https://github.com/StellarByteStudios/Meteroids/blob/main/Assets/Sprites%20%26%20Materials/Ship%20Black.png" />, muss viele Meteroiden <img alt="Metorid Icon" width="26px" src="https://github.com/StellarByteStudios/Meteroids/blob/main/Assets/Sprites%20%26%20Materials/Meteorid%201.png" /> zerstören und einen immer höheren Highscore erreichen.
+Das Spiel ist ein Nachbau des spiels Astroids, einer alten Arcade aus den späten 70ern. Man steuert ein Raumschiff <img alt="Astroid Icon" width="20px" src="https://github.com/StellarByteStudios/Meteroids/blob/main/Assets/Sprites%20%26%20Materials/Ship%20Black.png" />, muss viele Meteroiden <img alt="Metorid Icon" width="20px" src="https://github.com/StellarByteStudios/Meteroids/blob/main/Assets/Sprites%20%26%20Materials/Meteorid%201.png" /> zerstören und einen immer höheren Highscore erreichen.
 
 ### Starten
 Einfach die neuste [Zip-Datei][lastBuild] herunterladen, entpacken und einfach die `Metroids.exe` ausführen
