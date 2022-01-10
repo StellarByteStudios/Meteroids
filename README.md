@@ -14,13 +14,15 @@ Einfach die neuste [Zip-Datei][lastBuild] herunterladen, entpacken und einfach d
 - Pfeiltaste up: beschleunigen
 - Space: Schießen
 - ESC: Menu öffnen
----
+
 #### Alternative Steuerung
 - A/D: rotieren
 - W: beschleunigen
 - Maustaste left: Schießen
 
-
+---
+### To-Do:
+[] Englische Readme anfertigen
 
 
 
