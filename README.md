@@ -1,4 +1,4 @@
-# Meteroids
+# <img alt="Astroid Icon" width="33px" src="https://github.com/StellarByteStudios/Meteroids/blob/main/Assets/Sprites%20%26%20Materials/Ship%20Black.png" /> Meteroids
 
 ## Inhalt des Repos
 Hier werden alle Dateien zu meinem Spiel Meteroids hochgeladen.  
