@@ -24,7 +24,7 @@ Einfach die neuste [Zip-Datei][lastBuild] herunterladen, entpacken und einfach d
 
 ### Trivia
 Nachbau eines alten Arcade-Spiels  
-Developed with <img alt="Unity Icon" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original-wordmark.svg" />  
+Developed with Unity <img alt="Unity Icon" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" />  
 Written in <img alt="VS Icon" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" /> with <img alt="C# Icon" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
 
 ---
